@@ -1,4 +1,4 @@
-defmodule ModuleWeb.SentryEventFilter do
+defmodule SentryEventFilter.Filter do
   @moduledoc """
   This module defines exceptions to be excluded from sentry
   """
