@@ -11,7 +11,7 @@ Configure the filter as follows (with any `included_environments` and `environme
 ```
 # Configure sentry exclusions
 config :sentry,
-  filter: SentryEventFilter.SentryEventFilter,
+  filter: SentryEventFilter.Filter,
   included_environments: ~w(production development staging),
   environment_name: System.get_env("RELEASE_LEVEL") || "development"
 ```

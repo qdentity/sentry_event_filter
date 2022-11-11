@@ -22,7 +22,9 @@ defmodule SentryEventFilter.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.6.13"},
-      {:sentry, "~> 8.0"}
+      {:sentry, "~> 8.0"},
+      {:hackney, "~> 1.18"},
+      {:jason, "~> 1.2"}
     ]
   end
 end
