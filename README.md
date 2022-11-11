@@ -1,6 +1,6 @@
 # Sentry Event Filter
 
-The following repo contains a sample `sentry_event_filter.ex` file with the necessary exceptions. To activate it in a new app,
+This repo contains a sample `sentry_event_filter.ex` file with the necessary exceptions. To activate it in a new app,
 configure it as follows in `config.exs` (with the desired `included_environments` and `environment_name`):
 
 ```
