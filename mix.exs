@@ -7,7 +7,9 @@ defmodule SentryEventFilter.MixProject do
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      name: "SentryEventFilter",
+      source_url: "https://github.com/qdentity/sentry_event_filter"
     ]
   end
 
