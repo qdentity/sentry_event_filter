@@ -1,0 +1,2 @@
+defmodule SentryEventFilter do
+end
